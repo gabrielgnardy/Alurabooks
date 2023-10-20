@@ -11,14 +11,39 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .container{
     display: flex;
     align-items: center;
-    margin: 1.125rem 1.5rem;
+    margin: 1.125rem 1.5rem 1.125rem 0;
 }
 
-.primario{
-    gap: 1.5rem;
+#label__menu{
+    padding-right: 1.5rem;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container__botao:checked~.lista-menu{
+    display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item{
+    background-color: var(--cor-branco);
+    padding: 1rem;
+}
+
+.lista-menu__titulo{
+    color: var(--cor-laranja);
+}
+
+.lista-menu__link{
+    text-decoration: none;
 }
