@@ -1,11 +1,17 @@
 @import url(./styles/header.css);
+@import url(./styles/banner.css);
 
 :root{
     --cor-de-fundo: #EBECEE;
     --cor-branco: #ffffff;
     --cor-laranja: #EB9B00;
+    --cor-azul-gradiente: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
 }
 
 body{
     background-color: var(--cor-de-fundo);
-}
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    }
