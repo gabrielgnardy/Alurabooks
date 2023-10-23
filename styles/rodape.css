@@ -1,0 +1,10 @@
+hr{
+    margin: 0;
+    background-color: var(--cor-cinza-claro)
+}
+
+.rodapé__titulo{
+    background: var(--cor-branco);
+    color: var(--cor-preto);
+    padding: 1rem 15rem 1.5rem 1.5rem;
+}
