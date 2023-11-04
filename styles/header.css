@@ -18,10 +18,7 @@
     display: flex;
     align-items: center;
     margin: 1.125rem 1.5rem 1.125rem 0;
-}
-
-#label__menu{
-    padding-right: 1.5rem;
+    gap: 0.625rem;
 }
 
 .lista-menu{
@@ -29,6 +26,7 @@
     position: absolute;
     top: 100%;
     width: 60vw;
+    z-index: 2;
 }
 
 .container__botao:checked~.lista-menu{
@@ -105,6 +103,15 @@
     }
 
     .cabeçalho__menu-hamburguer{
+        display: none;
+    }
+
+    .opções__botão:checked ~ .lista-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opções__botão{
         display: none;
     }
 }

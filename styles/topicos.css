@@ -29,3 +29,24 @@
     text-decoration: none;
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px){
+
+    .tópicos{
+        padding: 2rem 0;
+    }
+
+    .tópicos__titulo{
+        font-size: 1.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .tópicos__itens{
+        margin: 2.5rem 1rem;
+    }
+
+    .tópicos__link{
+        padding: 1.5rem 2rem;
+        font-size: 1.5rem;
+    }
+}

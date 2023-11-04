@@ -8,10 +8,13 @@
 :root{
     --cor-de-fundo: #EBECEE;
     --cor-branco: #ffffff;
+    --cor-branco2: #f9f9f9;
     --cor-laranja: #EB9B00;
     --cor-Azul: #002F52;
     --cor-cinza-escuro: rgba(0, 0, 0, 0.85);
     --cor-cinza-claro: #858585;
+    --cor-cinza-medio: #474646;
+    --cor-cinza-medio2: #858585;
     --cor-azul-gradiente: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --cor-preto:#000;
     --fonte-principal: 'Poppins', sans-serif;;
