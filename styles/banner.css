@@ -45,5 +45,16 @@
     padding: 0.625rem 6.3rem;
     width: 50%; 
 }
-    
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__pesquisa{
+        padding: 0.625rem 8.5rem;
+        width: 33%; 
+    }
+
+    .banner{
+        padding: 5.25rem 1.5rem ;
+    }
+
 }

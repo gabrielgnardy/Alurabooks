@@ -132,3 +132,46 @@
         padding: 1.2rem 2.19rem;
     }
 }
+
+@media screen and (min-width: 1728px){
+
+    .carrossel__titulo{
+        font-size: 2rem;
+        padding: 2.625rem 0 1rem 0;
+    }
+
+    .carrossel__container{
+        display: flex;
+        margin: 4.62rem 10.8rem 9rem 10.8rem;
+        gap: 2.875rem;
+        align-items: flex-end;
+    }
+
+    .swiper-pagination{
+        margin: 0 0 1.75rem 0;
+    } 
+
+    .swiper{
+        width: 50%;
+    }
+
+    .card{
+        width: 45%;
+    }
+
+    .descrição__titulo{
+        font-size: 2rem;
+    }
+
+    .descrição__autora{
+        font-size: 2rem;
+    }
+
+    .descrição__titulo__autora{
+        margin: 0.375rem 0 0.75rem 0;
+    }
+
+    .descrição__texto__autora{
+        width: 70%;
+    }
+}

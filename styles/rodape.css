@@ -52,7 +52,16 @@ hr{
         display: flex;
         align-items: center;
         gap: 0.5rem;
-        margin: 1rem;
+        margin: 1rem 0;
     }
+}
 
+@media screen and (min-width: 1724px) {
+
+    .lista-rodapé{
+        border-left: 1px solid var(--cor-cinza-claro);
+        padding-left: 1rem ;
+        margin: 3.5rem 0 1.5625rem 0;
+    }
+    
 }

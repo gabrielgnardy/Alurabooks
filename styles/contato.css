@@ -71,3 +71,18 @@
         font-size: 1rem;
     }
 }
+
+@media screen and (min-width:1728px) {
+    
+    .contato__descrição{
+        margin: 4rem 0 4rem 8rem;
+    }
+
+    .contato__email{
+        width: 17%;
+    }
+
+    .contato__texto{
+        font-size: 1rem;
+        width: 70%;
+}

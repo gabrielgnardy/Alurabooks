@@ -18,7 +18,7 @@
     <header class="cabeçalho">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu" id="label__menu">
+            <label for="menu" id="label__menu" class="container__rotulo">
                 <span class="cabeçalho__menu-hamburguer container__imagem"></span>
             </label>
             <ul class="lista-menu">
@@ -39,7 +39,7 @@
         </div>
         <ul class="opções">
             <input type="checkbox" id="opções-menu" class="opções__botão">
-            <label for="opções-menu">
+            <label for="opções-menu" class="opções__rotulo">
                 <li class="opções__item">Categorias</li>
             </label>
             <ul class="lista-menu">
@@ -59,8 +59,14 @@
         </ul>
         <div class="container secundario">
             <a href="#"><img src="./assets/Favoritos.svg" alt="Meu Favoritos" class="container__imagem container__imagem--transparente"></a>
-            <a href="#"><img src="./assets/Compras.svg" alt="Carrinho de Compras" class="container__imagem"></a>
-            <a href="#"><img src="./assets/Usuário.svg" alt="Meu Perfil" class="container__imagem"></a>
+            <a href="#" class="container__link">
+                <img src="./assets/Compras.svg" alt="Carrinho de Compras" class="container__imagem">
+                <p class="container__texto">Minha Sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="./assets/Usuário.svg" alt="Meu Perfil" class="container__imagem">
+                <p class="container__texto">Meu Perfil</p>
+            </a>
         </div>
     </header> 
     <section class="banner">
@@ -69,8 +75,8 @@
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura">
     </section>
     <section class="carrossel">
-        <h2 class="carrossel__titulo">Novos lançamentos</h2>
-         
+         <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <div class="carrossel__container">
         <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-pagination"></div> 
@@ -109,9 +115,11 @@
                 <a href="#" class="botões__ancora">Saiba mais</a>
             </div>
           </div>
+        </div>
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <div class="carrossel__container">
         <div class="swiper">
             <!-- Additional required wrapper -->
             <div class="swiper-pagination"></div> 
@@ -151,6 +159,7 @@
                 <a href="#" class="botões__ancora">Saiba mais</a>
             </div>
           </div>
+        </div>
     </section>
 
     <section class="tópicos">

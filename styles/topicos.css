@@ -50,3 +50,18 @@
         font-size: 1.5rem;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    
+    .tópicos{
+        padding: 0.5rem;
+    }
+
+    .tópicos__titulo{
+        margin-top: 4rem;
+    }
+
+    .tópicos__lista{
+        margin: 0 25rem 3rem 25rem;
+    }
+}
